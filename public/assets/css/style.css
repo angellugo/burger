@@ -1,4 +1,20 @@
+body {
+    background-color: rgb(208, 255, 0);
+}
+
 .img{
     width:100px;
     height:100px;
+}
+
+.btn{
+    margin: 1%;
+}
+
+.devoured-burgers, .undevoured-burgers{
+    background-color: rgba(226, 255, 97, 0.767);
+}
+
+.title-section, .add-a-burger-section{
+    margin: 5%;
 }

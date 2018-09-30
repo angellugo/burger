@@ -1,4 +1,4 @@
-<div>
+<div class="burger">
     
     {{#if devouredSection}}
         {{#if devoured}}
@@ -7,7 +7,7 @@
 
     {{else}}
         {{#unless devoured}}
-        <button type='button' class='devour-burger-button' data-id="{{id}}">Devour it!</button>
+        <button type='button' class='btn btn-primary devour-burger-button' data-id="{{id}}">Devour it!</button>
         {{id}}: {{burger_name}}
         {{/unless}}
     {{/if}}
